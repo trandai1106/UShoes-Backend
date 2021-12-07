@@ -1,0 +1,20 @@
+Terminal:
+npm init -y
+npm install express --save
+npm install dotenv --save
+npm install -g nodemon
+npm install cors
+npm install multer --save
+npm install bcrypt
+npm install jsonwebtoken
+npm i -S run-func
+-----------------
+Create file app.js and .env on root folder (same position with package.json)
+-----------------
+Seed database 
+Terminal:
+npm run seed
+-----------------
+Run server
+Terminal:
+nodemon app.js
